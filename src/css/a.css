@@ -1,0 +1,18 @@
+#menu:checked~.megamenu {
+    right: 0;
+    top: 0;
+    transition: 300ms;
+}
+
+#close:checked~.megamenu {
+    right: -100%;
+    transition: 300ms;
+}
+
+.background-1 {
+    background-image: url(../images-PLP/header/img-1.jpg);
+}
+
+.background-2 {
+    background-image: url(../images-about/img-1.png);
+}

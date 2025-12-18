@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/output.css">
+</head>
+
+<body class="">
+    <!-- #region wrapper desktop-->
+    <div class="wrapper max-w-[1440px] h-[3010px] bg-[#F3F3F3] mx-auto relative lg:block hidden">
+        <!-- #region header-->
+        <div class="header max-w-[1440px] h-[400px] justify-center flex relative">
+            <img src="./src/image/header/img-1.png" class="w-[1440px] h-[400px]" alt="">
+            <!-- #region menu-->
+            <div class="menu w-[1224px] h-24 bg-[#FFFFFF] fixed top-0 z-100 rounded-b-2xl flex justify-between px-8 items-center">
+                <img src="./src/image/header/Logo.png" class="w-[151px] h-[59px] " alt="">
+                <div class="header-menu w-[507px] h-7 flex justify-between font-estedad-medium text-[16px]">
+                    <a href="#">رزرو خودرو</a>
+                    <a href="detaill-blog.html">خدمات ما</a>
+                    <a href="./blog.html">بلاگ</a>
+                    <a href="./about.html">درباره ما</a>
+                    <a href="./index.html">تماس با ما</a>
+                    <a href="#"><img src="./src/image/header/search.png" class="mt-[5px]"></a>
+                </div>
+                <div class="regester w-[122px] h-10 bg-[#194BF0] rounded-lg py-1 px-4">
+                    <a href="#" class="font-estedad-medium text-[16px] text-[#FFFFFF]">ورود / ثبت‌نام</a>
+                </div>
+            </div>
+            <!-- #endregion menu -->
+            <div class="question w-[155px] h-[25px] absolute top-[212px] text-[#ffffff] flex justify-between font-estedad-regular text-[14px]">
+                <a href="#">اتورنت</a>
+                <img src="./src/image/header/arrow-left.png" alt="">
+                <a href="#">سئوالات متداول</a>
+            </div>
+        </div>
+        <!-- #endregion header-->
+        <!-- #region best car for family-->
+        <div class="bst-car-family absolute top-[456px] left-[557px] w-[775px] h-14 ">
+            <h1 class="text-[40px] font-estedad-bold ">بهترین ماشین برای خانواده</h1>
+        </div>
+        <!-- #endregion best car for family-->
+        <!-- #region Date-->
+        <div class="date w-[270px] h-8 absolute top-[526px] left-[1067px] gap-2 ">
+            <div class="data-center flex justify-around">
+                <div class="date-center-right flex w-[147px] h-8 bg-[#F9F9F9] rounded-lg">
+                    <img class="w-6 h-6 " src="./src/image/date/clock.png" alt="">
+                    <h1 class="text-[12px] font-estedad-regular leading-7 pr-1.5 text-[#5E5E5E]">زمان مطالعه: ۵ دقیقه</h1>
+                </div>
+                <div class="date-center-left w-[94px] h-8 bg-[#F9F9F9] flex leading-6 pr-1.5 rounded-lg ">
+                    <img class="w-6 h-6 " src="./src/image/date/calendar.png" alt="">
+                    <h1 class="text-[12px] font-estedad-regular text-[#5E5E5E] pr-2.5 leading-7">۳۰ آذر ۱۴۰۲</h1>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion Date-->
+        <!-- #region body-->
+        <div class="img-car w-[804px] h-[386px] absolute top-[572px] left-[524px] rounded-2xl">
+            <img src="./src/image/car/car.png" alt="">
+        </div>
+        <!-- #region serche-->
+        <div class="serch absolute w-[392px] h-14 rounded-[14px] top-[574px] left-[108px] bg-[#FFFFFF] px-3 py-[17.5px]">
+            <div class="serch-center flex justify-between">
+                <input type="search" name="" id="" placeholder="جستجو در سایت اجاره خودرو اتورنت" class="text-[12px] font-estedad-regular outline-0 ">
+                <img src="./src/image/body/search.png" class="w-4 h-4 my-auto" alt="">
+            </div>
+        </div>
+        <!-- #endregion serche-->
+        <!-- #region last-article-->
+        <div class="last-article absolute w-[392px] h-[568px] top-[654px] left-[108px] bg-[#FFFFFF] rounded-[14px] pr-3">
+            <div class="pt-[16.5px] pr-2">
+                <h1 class="text-[24px] font-estedad-bold">آخرین مقالات</h1>
+                <div class="w-[60px] h-[5px] bg-[#D79C10] "></div>
+            </div>
+            <div class="last-article-items flex-col">
+                <div class="last-article-img mt-[25px] pr-1.5 flex">
+                    <img src="./src/image/body/img-car-last-article/pic.png" alt="">
+                    <div class="last-article-img-item-left pr-3.5">
+                        <div class="last-article-item-left-center w-[260px] h-[65px] ">
+                            <h1 class="text-[16px] font-estedad-medium text-[#494949]">نگاهی به Lexus NX</h1>
+                            <div class="article-reveiw-clock flex gap-4">
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2 rounded-lg" src="./src/image/body/img-car-last-article/clock.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">3دقیقه</p>
+                                </div>
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2" src="./src/image/body/img-car-last-article/eye.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">21,597</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-article-img mt-[25px] pr-1.5 flex">
+                    <img src="./src/image/body/img-car-last-article/pic (1).png" alt="">
+                    <div class="last-article-img-item-left pr-3.5">
+                        <div class="last-article-item-left-center w-[260px] h-[65px] ">
+                            <h1 class="text-[16px] font-estedad-medium text-[#494949]">رونمایی از Lamborgini Urus</h1>
+                            <div class="article-reveiw-clock flex gap-4">
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2 rounded-lg" src="./src/image/body/img-car-last-article/clock.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">3دقیقه</p>
+                                </div>
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2" src="./src/image/body/img-car-last-article/eye.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">21,597</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-article-img mt-[25px] pr-1.5 flex">
+                    <img src="./src/image/body/img-car-last-article/pic (2).png" alt="">
+                    <div class="last-article-img-item-left pr-3.5">
+                        <div class="last-article-item-left-center w-[260px] h-[65px] ">
+                            <h1 class="text-[16px] font-estedad-medium text-[#494949]">بنتلی Bentayga زیر تیغ تیونینگ منصوری</h1>
+                            <div class="article-reveiw-clock flex gap-4">
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2 rounded-lg" src="./src/image/body/img-car-last-article/clock.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">3دقیقه</p>
+                                </div>
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2" src="./src/image/body/img-car-last-article/eye.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">21,597</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-article-img mt-[25px] pr-1.5 flex">
+                    <img src="./src/image/body/img-car-last-article/pic (3).png" alt="">
+                    <div class="last-article-img-item-left pr-3.5">
+                        <div class="last-article-item-left-center w-[260px] h-[65px] ">
+                            <h1 class="text-[16px] font-estedad-medium text-[#494949]">رونمایی از فراری Roma به تاخیر افتاد</h1>
+                            <div class="article-reveiw-clock flex gap-4">
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2 rounded-lg" src="./src/image/body/img-car-last-article/clock.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">3دقیقه</p>
+                                </div>
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2" src="./src/image/body/img-car-last-article/eye.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">21,597</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion last-article-->
+        
+        <!-- #region wich favorite car?-->
+        <div class="favorit-car absolute w-[804px] h-[830px] top-[972px] left-[524px] rounded-[14px] bg-[#FFFFFF]">
+            <div class="favorite-car-center px-4 pt-6 flex-col gap-y-8 ">
+                <h1 class=" font-estedad-bold text-[#212121] text-[32px]">محبوب‌ترین خودرو های خانوادگی کدامند؟</h1>
+                <p class="text-[16px] font-estedad-medium leading-8 text-[#494949] pt-4">1. سمند LX: سمند به عنوان یکی از محبوب‌ترین خودروهای خانوادگی در ایران شناخته می‌شود. این خودرو دارای فضای داخلی راحتی است و از لحاظ ایمنی نیز در سطح قابل قبولی قرار دارد. مصرف سوخت مناسب و قیمت مقرون به صرفه، سمند را به یک انتخاب عالی
+                    تبدیل کرده است. <br> 2. دنا پلاس توربو: دنا پلاس، مدل ارتقاء یافته دنا، با موتور توربو و طراحی مدرن، یک گزینه عالی برای خانواده‌هایی است که به دنبال ترکیبی از قدرت، ایمنی و زیبایی هستند. این خودرو همچنین دارای امکانات رفاهی به‌روز
+                    و فضای داخلی جادار است. <br> 3. پژو ۲۰۶ تیپ ۵: پژو ۲۰۶ با طراحی کلاسیک و شناخته شده خود، گزینه‌ای محبوب در میان خانواده‌های ایرانی است. این خودرو علاوه بر اینکه از نظر فنی قابل اعتماد است، در زمینه مصرف سوخت نیز اقتصادی به شمار می‌رود.
+                    <br> 4. رنو تندر 90 (لوگان): رنو تندر 90 با فضای داخلی بسیار جادار، امکانات رفاهی مناسب و عملکرد فنی قابل توجه، یکی از بهترین گزینه‌ها برای خانواده‌هایی است که به دنبال خودرویی با استانداردهای اروپایی هستند. این خودرو همچنین در زمینه
+                    ایمنی نیز امتیازات خوبی کسب کرده است. <br> انتخاب بهترین ماشین برای خانواده نیازمند توجه به جزئیات فراوانی است. با توجه به اینکه هر خانواده نیازها و بودجه مختلفی دارد، ارزیابی دقیق خودروهای موجود در بازار بر اساس فاکتورهای فوق می‌تواند
+                    به شما در انتخاب خودرویی که به بهترین شکل پاسخگوی نیازهای شما باشد کمک کند.</p>
+                <div class="favorite-car-center-2  mt-8">
+                    <h1 class="text-[32px] font-estedad-bold">فاکتورهای کلیدی در انتخاب خودروی خانوادگی </h1>
+                    <p class="text-[16px] font-estedad-medium text-[#494949] leading-8 ">1. ایمنی: ایمنی باید اولین و مهم‌ترین اولویت در هنگام خرید ماشین خانوادگی باشد. خودروهایی که دارای امتیاز بالایی در تست‌های تصادف و مجهز به سیستم‌های ایمنی پیشرفته مانند کیسه‌های هوا، ترمزهای ABS و سیستم پایداری الکترونیکی هستند، انتخاب‌های
+                        مناسب‌تری هستند. <br> 2. راحتی و فضای داخلی: فضای داخلی کابین باید به اندازه کافی جادار برای راحتی تمام اعضای خانواده باشد. صندلی‌های راحت، فضای کافی برای پا، و کیفیت مواد به کار رفته در داخل کابین از جمله نکاتی هستند که باید به
+                        آن توجه کنید. <br> 3. کارایی و مصرف سوخت: خودروی خانوادگی باید از لحاظ اقتصادی نیز مقرون به صرفه باشد. خودروهایی با مصرف سوخت بهینه و هزینه‌های نگهداری پایین‌تر در درازمدت مقرون به صرفه‌تر خواهند بود.</p>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion wich favorite car?-->
+        <!-- #endregion body-->
+        <!-- #region comments-->
+        <div class="comments w-[805px] h-[619px] absolute top-[1790px] left-[524px]  mt-[65px]">
+            <div class="comments-center flex flex-col gap-y-4 ">
+                <div class="comments-1 h-[42px] ">
+                    <h1 class="text-[14px] font-estedad-medium text-[#868686]">نشانی ایمیل شما منتشر نخواهد شد. بخش‌های موردنیاز علامت‌گذاری شده‌اند *</h1>
+                </div>
+                <div class="comments-2">
+                    <h1 class="text-[20px] font-estedad-medium text-[#353535]">دیدگاه شما*</h1>
+                </div>
+                <div class="comments-3  bg-[#ffffff]  rounded-2xl w-[804px] h-52">
+                   <input type="text" name="text" id="" placeholder="پیام" class=" pr-4 text-[14px] font-estedad-regular outline-0 ">
+                </div>
+                <div class="comments-4">
+                    <h1 class="text-[20px] font-estedad-medium text-[#353535] ">نام*</h1>
+                </div>
+                <div class="comments-5 w-[804px] h-14 bg-[#ffffff] rounded-xl py-[15px] pr-4">
+                   <input type="text" name="text" id="" placeholder="نام" class="text-[14px] font-estedad-regular outline-0">
+                </div>
+                <div class="comments-6">
+                    <h1 class="text-[20px] font-medium text-[#353535]">ایمیل*</h1>
+                </div>
+                <div class="comments-7 w-[804px] h-14 bg-[#ffffff] rounded-xl py-[15px] pr-4">
+                    <input type="text" name="" id="" placeholder="ایمیل" class="text-[14px] font-estedad-regular outline-0">
+                </div>
+                <div class="comments-8 w-[154px] h-10 bg-[#194BF0] rounded-lg flex justify-center">
+                    <button class="text-[14px] font-estedad-medium text-[#FFFFFF] cursor-pointer">ثبت دیدگاه</button>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion comments-->
+        <!-- #region footer-->
+        <div class="footer w-[1218px] h-[431px] rounded-2xl bg-[#292D32D9]  absolute top-[2489px] left-[111px] px-6 py-14 flex-col justify-center mt-20">
+            <div class="contact w-[1120px] h-[101px] flex border border-[#868686] gap-[81px] rounded-2xl mr-7 p-4 justify-between mb-4 ">
+                <div class="footer-item w-[255px] h-[69px]  flex gap-4 justify-center">
+                    <div class="w-12 h-12 mt-2.5 "><img src="./src/image/footer/call.png" alt=""></div>
+                    <div class="w-[113px] h-[69px]  ">
+                        <h1 class="font-estedad-regular text-[16px] text-[#FFFBFB]  text-center mb-3">ارتباط با ما</h1>
+                        <h1 class="font-estedad-regular text-[16px] text-[#FFFBFB]">0912-21326545</h1>
+                    </div>
+                </div>
+                <span class="w-px h-8 bg-[#868686] mt-4"></span>
+                <div class="footer-item w-[255px] h-[69px]  flex gap-4 justify-center">
+                    <div class="w-12 h-12 mt-2.5 "><img src="./src/image/footer/sms.png" alt=""></div>
+                    <div class="w-[113px] h-[69px]  ">
+                        <h1 class="font-estedad-regular text-[16px] text-[#FFFBFB]  text-center mb-3">ایمیل</h1>
+                        <h1 class="font-estedad-regular text-[16px] text-[#FFFBFB]">autorent@info.com</h1>
+                    </div>
+                </div>
+                <span class="w-px h-8 bg-[#868686] mt-4"></span>
+                <div class="footer-item w-[255px] h-[69px] flex gap-4 justify-center">
+                    <div class="w-12 h-12 mt-2.5 "><img src="./src/image/footer/map.png" alt=""></div>
+                    <div class="w-[113px] h-[69px] ">
+                        <h1 class="font-estedad-regular text-[16px] text-[#FFFBFB]  text-center mb-3">آدرس</h1>
+                        <h1 class="font-estedad-regular text-[16px] text-[#FFFBFB]">تهران- خ شادمان</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-items w-[1170px] h-[233px] ">
+                <div class="footer-item w-[1115px] h-[168px] flex gap-[88x] justify-around items-center ">
+                    <div class="item-1 w-[572px] h-[168px]  flex ">
+                        <div class="w-[438px] h-[168px]">
+                            <img src="./src/image/footer/Logo.png" class="mb-6">
+                            <p class="font-estedad-regular text-[14px] leading-[180%] text-white">اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن بزرگترین ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر، اقتصادی تا تجاری در سراسر کشور ایران آماده خدمت‌رسانی به مشتریان است.</p>
+                        </div>
+                        <div class="w-[134px] h-[156px] text-white font-estedad-medium mr-6 text-[14px] ">
+                            <a href="#" class="mb-5 block">دسترسی آسان</a>
+                            <a href="#" class="mb-5 block">سوالات متداول</a>
+                            <a href="#" class="mb-5 block">تماس با ما</a>
+                            <a href="#">درباره ما</a>
+                        </div>
+                    </div>
+                    <div class="item-2 w-[320px] h-20 ">
+                        <p class="font-estedad-semibold text-[16px] mb-3 text-white">خبرنامه</p>
+                        <div class="w-[320px] h-10  border  border-[#868686] rounded-md flex justify-between">
+                            <input class="font-estedad-regular text-[12px] text-[#C2C2C2] mr-2" placeholder="ایمیل خود را وارد کنید" type="email" name="email" id="email">
+                            <input class="w-[66px] h-8 mt-[3px] ml-1.5 bg-[#FDB713] rounded-sm font-estedad-semibold text-[14px] text-[#212121]" type="submit" value="ارسال">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[1115px] h-px bg-[#868686] mt-5 mr-5"></div>
+                <div class="esalat flex justify-center gap-2 mt-4 font-estedad-medium text-[14px] text-[#9A9A9A]">
+                    <img src="./src/image/footer/creative-commons.png" alt="">
+                    <h1>تمامی حقوق این وبسایت متعلق به اتورنت می‌باشد</h1>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion footer-->
+    </div>
+    <!-- #endregion wrapper desktop -->
+    <!-- #region wrapper-mobil-->
+     <div class="wrapper max-w-105 bg-[#F3F3F3] mx-auto relative lg:hidden">
+        <!-- #region header-->
+        <div class="header w-[420px] h-[280px] bg-[url(/src/image/header/img-2.jpg)] bg-cover bg-center mb-2.5">
+            <div class="w-[420px] h-full bg-[#00000099]">
+                <!-- #region menu-->
+                <div class="menu w-[420px] h-18 bg-white mx-auto rounded-b-lg shadow-xs shadow-gray-700 flex justify-around fixed z-100">
+                    <label for="menu" class="lg:hidden w-8 h-8 rounded-lg bg-[#194bf0] my-auto cursor-pointer">
+                        <img src="./src/image/header/list.svg" class="mx-auto mt-1.5" alt="">
+                    </label>
+                    <input type="radio" class="hidden" name="menu" id="menu">
+                    <input type="radio" class="hidden" name="menu" id="close">
+                    <div class="megamenu w-[250px] h-screen bg-[#8f8f8fef] absolute -right-full pt-2 top-0 z-1000 shadow-2xl shadow-gray-800">
+                        <div class="w-full flex justify-around items-center mb-4">
+                            <img src="./src/image/header/Logo.png" alt="">
+                            <label for="close" class="w-10 h-10 bg-[#cfcdcd] rounded-lg pb-2 flex justify-center items-center ml-3 text-center text-gray-400 text-4xl hover:bg-[#194bf0] hover:text-white duration-300">&times;</label>
+                        </div>
+                        <a href="./detaill-blog.html">
+                            <div class="w-full h-10 font-estedad-medium text-[14px] text-[#212121] mb-4 hover:bg-[#b6b6b6] flex items-center justify-center duration-300 rounded-xl">رزرو خدمات خودرو</div>
+                        </a>
+                        <a href="#">
+                            <div class="w-full h-10 font-estedad-medium text-[14px] text-[#212121] mb-4 hover:bg-[#b6b6b6] flex items-center justify-center duration-300 rounded-xl">خدمات ما</div>
+                        </a>
+                        <a href="./blog.html">
+                            <div class="w-full h-10 font-estedad-medium text-[14px] text-[#212121] mb-4 hover:bg-[#b6b6b6] flex items-center justify-center duration-300 rounded-xl">بلاگ</div>
+                        </a>
+                        <a href="./about.html">
+                            <div class="w-full h-10 font-estedad-medium text-[14px] text-[#212121] mb-4 hover:bg-[#b6b6b6] flex items-center justify-center duration-300 rounded-xl">درباره ما</div>
+                        </a>
+                        <a href="./index.html">
+                            <div class="w-full h-10 font-estedad-medium text-[14px] text-[#212121] mb-4 hover:bg-[#b6b6b6] flex items-center justify-center duration-300 rounded-xl">تماس با ما</div>
+                        </a>
+                    </div>
+                    <div class="w-[170px] h-8 my-auto border-b border-gray-500 rounded-xl flex justify-between px-2">
+                        <input type="search" name="search" id="" class="w-[140px] h-8 font-estedad-medium text-[10px] outline-0" placeholder="جستجو">
+                        <img src="./src/image/header/search.png" class="w-4 h-4 my-auto" alt="">
+                    </div>
+                    <div class="w-[88px] h-8 bg-[#194bf0] rounded-lg my-auto px-3.5">
+                        <a href="#" class="text-white font-estedad-medium text-[10px]">ورود / ثبت نام</a>
+                    </div>
+                </div>
+                <p class="font-estedad-bold text-[16px] text-[#fdb713] text-center absolute top-[120px] left-[190px]">مقالات ما</p>
+                <div class="question w-[135px] h-[20px] absolute top-[140px] left-[140px] text-[#ffffff] flex justify-between items-center font-estedad-regular text-[12px]">
+                    <a href="#">اتورنت</a>
+                    <img src="./src/image/header/arrow-left.png" class="w-4 h-4">
+                    <a href="#">سئوالات متداول</a>
+                </div>
+                <!-- #endregion menu-->
+            </div>
+        </div>
+        <!-- #endregion header-->
+         <!-- #region best car for family-->
+        <div class="bst-car-family w-fit h-14 pr-2">
+            <h1 class="text-[23px] font-estedad-bold ">بهترین ماشین برای خانواده</h1>
+        </div>
+        <!-- #endregion best car for family-->
+         <!-- #region Date-->
+        <div class="date w-[270px] h-8  gap-2 ">
+            <div class="data-center flex justify-around">
+                <div class="date-center-right flex w-[147px] h-8 bg-[#F9F9F9] rounded-lg">
+                    <img class="w-6 h-6 " src="./src/image/date/clock.png" alt="">
+                    <h1 class="text-[12px] font-estedad-regular leading-7 pr-1.5 text-[#5E5E5E]">زمان مطالعه: ۵ دقیقه</h1>
+                </div>
+                <div class="date-center-left w-[94px] h-8 bg-[#F9F9F9] flex leading-6 pr-1.5 rounded-lg ">
+                    <img class="w-6 h-6 " src="./src/image/date/calendar.png" alt="">
+                    <h1 class="text-[12px] font-estedad-regular text-[#5E5E5E] pr-2.5 leading-7">۳۰ آذر ۱۴۰۲</h1>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion Date-->
+         <!-- #region serche-->
+         <div class="serch w-[290px] h-[40px] border border-gray-300 px-3 mt-2.5 rounded-xl flex justify-between mx-auto">
+            <input type="search" name="search" id="" placeholder="جستجو در سایت اجاره خودرو اتورنت" class="font-estedad-medium text-[10px] pr-1.5 outline-0 ">
+            <img src="./src/image/body/search.png" class="w-4 h-4 my-auto" alt="">
+         </div>
+        <!-- #endregion serche-->
+         <div class="img-car w-[400px] mx-auto mt-8 rounded-2xl">
+            <img src="./src/image/car/car.png" alt="">
+        </div>
+         <!-- #region wich favorite car?-->
+        <div class="favorit-car w-[400px]  rounded-[14px] bg-[#FFFFFF] mt-6 mx-auto">
+            <div class="favorite-car-center px-4 pt-6 flex-col gap-y-8 ">
+                <h1 class=" font-estedad-bold text-[#212121] text-[20px]">محبوب‌ترین خودرو های خانوادگی کدامند؟</h1>
+                <p class="text-[11px] font-estedad-medium leading-8 text-[#494949] pt-4">1. سمند LX: سمند به عنوان یکی از محبوب‌ترین خودروهای خانوادگی در ایران شناخته می‌شود. این خودرو دارای فضای داخلی راحتی است و از لحاظ ایمنی نیز در سطح قابل قبولی قرار دارد. مصرف سوخت مناسب و قیمت مقرون به صرفه، سمند را به یک انتخاب عالی
+                    تبدیل کرده است. <br> 2. دنا پلاس توربو: دنا پلاس، مدل ارتقاء یافته دنا، با موتور توربو و طراحی مدرن، یک گزینه عالی برای خانواده‌هایی است که به دنبال ترکیبی از قدرت، ایمنی و زیبایی هستند. این خودرو همچنین دارای امکانات رفاهی به‌روز
+                    و فضای داخلی جادار است. <br> 3. پژو ۲۰۶ تیپ ۵: پژو ۲۰۶ با طراحی کلاسیک و شناخته شده خود، گزینه‌ای محبوب در میان خانواده‌های ایرانی است. این خودرو علاوه بر اینکه از نظر فنی قابل اعتماد است، در زمینه مصرف سوخت نیز اقتصادی به شمار می‌رود.
+                    <br> 4. رنو تندر 90 (لوگان): رنو تندر 90 با فضای داخلی بسیار جادار، امکانات رفاهی مناسب و عملکرد فنی قابل توجه، یکی از بهترین گزینه‌ها برای خانواده‌هایی است که به دنبال خودرویی با استانداردهای اروپایی هستند. این خودرو همچنین در زمینه
+                    ایمنی نیز امتیازات خوبی کسب کرده است. <br> انتخاب بهترین ماشین برای خانواده نیازمند توجه به جزئیات فراوانی است. با توجه به اینکه هر خانواده نیازها و بودجه مختلفی دارد، ارزیابی دقیق خودروهای موجود در بازار بر اساس فاکتورهای فوق می‌تواند
+                    به شما در انتخاب خودرویی که به بهترین شکل پاسخگوی نیازهای شما باشد کمک کند.</p>
+                <div class="favorite-car-center-2 mt-8">
+                    <h1 class="text-[19px] font-estedad-bold mb-2">فاکتورهای کلیدی در انتخاب خودروی خانوادگی </h1>
+                    <p class="text-[11px] font-estedad-medium text-[#494949] leading-8 ">1. ایمنی: ایمنی باید اولین و مهم‌ترین اولویت در هنگام خرید ماشین خانوادگی باشد. خودروهایی که دارای امتیاز بالایی در تست‌های تصادف و مجهز به سیستم‌های ایمنی پیشرفته مانند کیسه‌های هوا، ترمزهای ABS و سیستم پایداری الکترونیکی هستند، انتخاب‌های
+                        مناسب‌تری هستند. <br> 2. راحتی و فضای داخلی: فضای داخلی کابین باید به اندازه کافی جادار برای راحتی تمام اعضای خانواده باشد. صندلی‌های راحت، فضای کافی برای پا، و کیفیت مواد به کار رفته در داخل کابین از جمله نکاتی هستند که باید به
+                        آن توجه کنید. <br> 3. کارایی و مصرف سوخت: خودروی خانوادگی باید از لحاظ اقتصادی نیز مقرون به صرفه باشد. خودروهایی با مصرف سوخت بهینه و هزینه‌های نگهداری پایین‌تر در درازمدت مقرون به صرفه‌تر خواهند بود.</p>
+                </div>
+            </div>
+        </div>
+         <!-- #region last-article-->
+        <div class="last-article  w-[350px] bg-[#FFFFFF] mx-auto mt-6 rounded-[14px] pr-3">
+            <div class="pt-[16.5px] pr-2">
+                <h1 class="text-[20px] font-estedad-bold">آخرین مقالات</h1>
+                <div class="w-[60px] h-1 bg-[#D79C10] "></div>
+            </div>
+            <div class="last-article-items flex flex-col">
+                <div class="last-article-img mt-[25px] pr-1.5 flex">
+                    <img src="./src/image/body/img-car-last-article/pic.png" alt="">
+                    <div class="last-article-img-item-left pr-3.5">
+                        <div class="last-article-item-left-center w-[260px] h-[65px] ">
+                            <h1 class="text-[11px] font-estedad-medium text-[#494949]">نگاهی به Lexus NX</h1>
+                            <div class="article-reveiw-clock flex gap-4">
+                                <div class="flex mt-3.5  ">
+                                    <img class="w-[18px] h-[18px] ml-2 rounded-lg" src="./src/image/body/img-car-last-article/clock.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">3دقیقه</p>
+                                </div>
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2" src="./src/image/body/img-car-last-article/eye.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">21,597</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-article-img mt-[25px] pr-1.5 flex">
+                    <img src="./src/image/body/img-car-last-article/pic (1).png" alt="">
+                    <div class="last-article-img-item-left pr-3.5">
+                        <div class="last-article-item-left-center w-[260px] h-[65px] ">
+                            <h1 class="text-[11px]  font-estedad-medium text-[#494949]">رونمایی از Lamborgini Urus</h1>
+                            <div class="article-reveiw-clock flex gap-4 my-auto ">
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2 rounded-lg" src="./src/image/body/img-car-last-article/clock.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">3دقیقه</p>
+                                </div>
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2" src="./src/image/body/img-car-last-article/eye.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">21,597</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-article-img mt-[25px] pr-1.5 flex">
+                    <img src="./src/image/body/img-car-last-article/pic (2).png" alt="">
+                    <div class="last-article-img-item-left pr-3.5">
+                        <div class="last-article-item-left-center w-[260px] h-[65px] ">
+                            <h1 class="text-[12px] font-estedad-medium text-[#494949]">بنتلی Bentayga زیر تیغ تیونینگ منصوری</h1>
+                            <div class="article-reveiw-clock flex gap-4">
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2 rounded-lg" src="./src/image/body/img-car-last-article/clock.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">3دقیقه</p>
+                                </div>
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2" src="./src/image/body/img-car-last-article/eye.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">21,597</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-article-img mt-[25px] pr-1.5 flex">
+                    <img src="./src/image/body/img-car-last-article/pic (3).png" alt="">
+                    <div class="last-article-img-item-left pr-3.5">
+                        <div class="last-article-item-left-center w-[260px] h-[65px] ">
+                            <h1 class="text-[12px] font-estedad-medium text-[#494949]">رونمایی از فراری Roma به تاخیر افتاد</h1>
+                            <div class="article-reveiw-clock flex gap-4">
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2 rounded-lg" src="./src/image/body/img-car-last-article/clock.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">3دقیقه</p>
+                                </div>
+                                <div class="flex mt-3.5 ">
+                                    <img class="w-[18px] h-[18px] ml-2" src="./src/image/body/img-car-last-article/eye.png" alt="">
+                                    <p class="text-[14px] font-estedad-regular text-[#868686]">21,597</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion last-article-->
+         <!-- #region comments-->
+        <div class="comments w-[390px] mx-auto mt-[65px]">
+            <div class="comments-center flex flex-col gap-y-4 ">
+                <div class="comments-1 h-[42px] ">
+                    <h1 class="text-[12px] font-estedad-medium text-[#868686]">نشانی ایمیل شما منتشر نخواهد شد. بخش‌های موردنیاز علامت‌گذاری شده‌اند *</h1>
+                </div>
+                <div class="comments-2">
+                    <h1 class="text-[15px] font-estedad-medium text-[#353535]">دیدگاه شما*</h1>
+                </div>
+                <div class="comments-3  bg-[#ffffff]  rounded-2xl w-[390px] h-20">
+                   <input type="text" name="text" id="" placeholder="پیام" class=" pr-4 text-[10px] font-estedad-regular outline-0 ">
+                </div>
+                <div class="comments-4">
+                    <h1 class="text-[15px] font-estedad-medium text-[#353535] ">نام*</h1>
+                </div>
+                <div class="comments-5 w-[390px] h-14 bg-[#ffffff] rounded-xl py-[15px] pr-4">
+                   <input type="text" name="text" id="" placeholder="نام" class="text-[10px] font-estedad-regular outline-0">
+                </div>
+                <div class="comments-6">
+                    <h1 class="text-[15px] font-medium text-[#353535]">ایمیل*</h1>
+                </div>
+                <div class="comments-7 w-[390px] h-14 bg-[#ffffff] rounded-xl py-[15px] pr-4">
+                    <input type="text" name="" id="" placeholder="ایمیل" class="text-[10px] font-estedad-regular outline-0">
+                </div>
+                <div class="comments-8 w-[120px] h-10 bg-[#194BF0] rounded-lg flex justify-center">
+                    <button class="text-[14px] font-estedad-medium text-[#FFFFFF] cursor-pointer">ثبت دیدگاه</button>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion comments-->
+         <!-- #region footer-->
+        <div class="footer w-[400px] h-fit rounded-2xl bg-[#292D32D9] p-5 flex-col justify-center mt-12 mx-auto mb-9">
+            <div class="w-[360px] h-fit border border-[#9a9a9a] rounded-xl p-2 mb-4">
+                <div class="w-full h-14 flex justify-between items-center border-b border-[#9a9a9a] pb-2 mb-2 mx-auto">
+                    <div class="w-12 h-12 border border-[#9a9a9a] rounded-lg">
+                        <img src="./src/image/footer/call-calling.png" class="mx-auto mt-3">
+                    </div>
+                    <div class="w-[280px] h-16 px-5 flex justify-between items-center">
+                        <p class="font-estedad-medium text-[14px] text-white">ارتباط با ما</p>
+                        <p class="font-estedad-medium text-[14px] text-white">0912-21326545</p>
+                    </div>
+                </div>
+                <div class="w-full h-14 flex justify-between items-center border-b border-[#9a9a9a] pb-2 mb-2 mx-auto">
+                    <div class="w-12 h-12 border border-[#9a9a9a] rounded-lg">
+                        <img src="./src/image/footer/sms.png" class="mx-auto mt-3">
+                    </div>
+                    <div class="w-[280px] h-16 px-5 flex justify-between items-center">
+                        <p class="font-estedad-medium text-[14px] text-white">ایمیل</p>
+                        <p class="font-estedad-medium text-[14px] text-white">autorent@info.com</p>
+                    </div>
+                </div>
+                <div class="w-full h-14 flex justify-between items-center pb-2 mx-auto">
+                    <div class="w-12 h-12 border border-[#9a9a9a] rounded-lg">
+                        <img src="./src/image/footer/map.png" class="mx-auto mt-3">
+                    </div>
+                    <div class="w-[280px] h-16 px-5 flex justify-between items-center">
+                        <p class="font-estedad-medium text-[14px] text-white">آدرس</p>
+                        <p class="font-estedad-medium text-[14px] text-white">تهران- خ شادمان</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[360px] h-fit pb-4 flex gap-3 justify-between items-center border-b border-[#9a9a9a] mb-4">
+                <img src="./src/image/footer/Logo.png" class="w-20 h-8" alt="">
+                <p class="font-estedad-regular text-[12px] leading-[180%] text-white text-justify">اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن بزرگترین ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر، اقتصادی تا تجاری در سراسر کشور ایران آماده خدمت‌رسانی به مشتریان است.</p>
+            </div>
+            <div class="w-[360px] h-fit flex justify-between items-center px-5 pb-4 border-b border-[#9a9a9a] mb-4">
+                <a href="#" class="font-estedad-regular text-[12px] text-white">دسترسی آسان</a>
+                <a href="#" class="font-estedad-regular text-[12px] text-white">سوالات متداول</a>
+                <a href="#" class="font-estedad-regular text-[12px] text-white">تماس با ما</a>
+                <a href="#" class="font-estedad-regular text-[12px] text-white">درباره ما</a>
+            </div>
+            <div class="w-[360px] h-fit mb-6 pb-4 border-b border-[#9a9a9a]">
+                <p class="font-estedad-medium text-[16px] text-white mb-4 pr-2">خبرنامه</p>
+                <div class="w-[360px] h-12 border border-[#9a9a9a] rounded-xl py-1 pr-3 pl-1 flex justify-between items-center">
+                    <input type="email" name="" id="" placeholder="ایمیل خود را وارد کنید" class="w-[280px] h-10 outline-0 font-estedad-regular text-[12px] text-[#c2c2c2]">
+                    <input type="submit" value="ارسال" class="bg-[#fdb713] w-[75px] h-9 rounded-lg font-estedad-regular text-[14px] text-black">
+                </div>
+            </div>
+            <div class="w-[360px] h-fit flex justify-center items-center gap-2">
+                <img src="./src/image/footer/creative-commons.png" alt="">
+                <p class="font-estedad-medium text-[14px] text-[#c2c2c2]">تمامی حقوق این وبسایت متعلق به اتورنت می‌باشد</p>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion footer-->
+
+
+
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
